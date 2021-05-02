@@ -1,21 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, StatusBar } from 'react-native';
+
+import { Wrapper, Row, Column, Title, ContentText } from './src/styles';
+
+const statusBarHeight = StatusBar.currentHeight;
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Wrapper
+      align='center'
+      justify='flex-start'
+      flex={1}
+      mt={statusBarHeight}
+      pl={10}
+      pr={10}
+    >
+      <StatusBar style='auto' />
+      <ContentText>App</ContentText>
+    </Wrapper>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
