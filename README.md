@@ -6,18 +6,18 @@
 	style="display: flex; flex-direction: row"
 >
 	<img
-		alt="dotfiles-logo"
+		alt="styled-components"
 		src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png"
-		width="300px"
+		width="200px"
 	/>
 	<img
 		alt="dotfiles-logo"
 		src="https://e7.pngegg.com/pngimages/781/45/png-clipart-plus-plus.png"
-		width="300px"
+		width="100px"
 	/>
 	<img
-		alt="dotfiles-logo"
+		alt="Ra's Al Ghul"
 		src="https://hugelolcdn.com/i/576477.gif"
-		width="300px"
+		width="200px"
 	/>
 </div>
