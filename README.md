@@ -16,3 +16,11 @@
 		width="250px"
 	/>
 </div>
+
+- Primeiro você deve [instalar o styled components](https://styled-components.com/docs/basics#installation) no seu projeto.
+- Copie o arquivo **~/src/styles/index.js** na sua pasta de estilos.
+> Obs: Por enquanto esses componentes servem somente para facilitar a minha vida, no futuro talvez eu crie uma lib caso seja necessário.
+
+# Utilização
+`import { Wrapper } from './src/styles' //Local onde você copiou o arquivo index.js` 
+
