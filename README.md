@@ -15,5 +15,9 @@
 		src="https://e7.pngegg.com/pngimages/781/45/png-clipart-plus-plus.png"
 		width="300px"
 	/>
-	
+	<img
+		alt="dotfiles-logo"
+		src="https://hugelolcdn.com/i/576477.gif"
+		width="300px"
+	/>
 </div>
