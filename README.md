@@ -24,5 +24,21 @@
 > Obs: Por enquanto esses componentes servem somente para facilitar a minha vida, no futuro talvez eu crie uma lib caso seja necessário.
 
 # Utilização
-`import { Wrapper } from './src/styles' //Local onde você copiou o arquivo index.js` 
+```javascript
+import { Wrapper } from './src/styles'; //Local onde você copiou o arquivo index.js
+import { Text } from 'react-native';
 
+export default function App () {
+	return (
+		<Wrapper
+			flex={1}
+			p={15}
+			bg='#5E9840'
+		>
+			<Text>Content</Text>
+		</Wrapper>
+	)
+}
+```
+
+# README.md incompleto.
